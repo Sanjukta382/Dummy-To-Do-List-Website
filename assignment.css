@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Otomanopee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Hammersmith+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+
+body{
+	background: #D3D3D3;
+	letter-spacing: 0.5px;
+}
+
+h1{
+	color: #2e8b57;
+	font-weight: 1200;
+	font-variant: small-caps;
+	font-style: bold; 
+	text-align: center;
+	font-family: 'Otomanopee One', sans-serif;
+	text-shadow: 2px 3px #8FBC8B;
+}
+
+h2{
+	font-size: 24px;
+	font-family: 'Acme', sans-serif;
+	color: #20B2AA;
+}
+
+
+#wrapper{
+	background: #ffffff;
+	width: 50%;
+	max-width: 960px;
+	margin: 30px auto;
+	box-shadow: 0 1px 2px rgba(0,0,0,0.2);
+	box-sizing: border-box;
+	border-radius: 6px;
+	padding: 0 0 20px;
+	overflow: hidden;
+	border: 1px solid #ccc;
+	list-style-type: none;
+	line-height: 40px;
+}
+
+#todo-list{
+	margin: 30px;
+}
+
+#todo-list ul{
+	list-style-type: none;
+	padding: 4px;
+	font-size: 16px;
+	font-weight: 600 !important;
+	font-style: oblique;
+    font-family: 'Hammersmith One', sans-serif;
+	color: #662d91;
+}
+
+
+
+.remove{
+	float: right;
+	background: #800080;
+	padding: 2px;
+	border-radius: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+	color: white;
+	width: 70px;
+	font-size: 14px;
+	font-family: 'Assistant', sans-serif;
+}
+
+.remove:hover{
+	background: #333;
+}
+
+#add-work{
+	width: 400px;
+	margin: 0 auto;
+}
+
+#add-work input{
+	display: inline-block;
+	margin: 10px 0;
+	border: 1px solid #000;
+	width: 300px;
+	font-size: 16px;
+	padding: 3px;
+	box-sizing: border-box;
+	float: left;
+	border-radius: 3px;
+	
+}
+
+
+.addBtn{
+	display: inline-block;
+	border-radius: 3px;
+	border: 1px solid #000;
+	cursor: pointer;
+	padding: 3px;
+	width: 60px;
+	font-size: 16px;
+	float: right;
+	margin: 10px 0;
+	background: #2e8b57;
+	color: #fff;
+}
+
+.addBtn:hover{
+	background: #D3D3D3;
+	color: #000000;
+}
+
+
